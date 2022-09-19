@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+flex {
+	display: flex;
+}
+.row {
+	flex-direction: row;
+}
+.column {
+	flex-direction: column;
+}
+.vr-centre {
+	align-items: center;
+}
+.hr-centre {
+	justify-content: center;
+}
+.white {
+	color: hsl(0, 0%, 100%);
+}
