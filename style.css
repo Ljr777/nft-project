@@ -1,37 +1,56 @@
 body {
-	font-family: Outfit;
-	background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+  background-color: hsl(217, 54%, 11%);
 }
 .main-div {
-	margin: 50px auto;
-	background-color: hsl(216, 50%, 16%);
-	border-radius: 15px;
-	display: flex;
-	max-width: 330px;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+  margin: 50px auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  display: flex;
+  max-width: 330px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-img {
-	max-width: 300px;
-	margin: 15px;
-	border-radius: 5px;
+  max-width: 300px;
+  margin: 15px;
+  border-radius: 5px;
 }
 .about {
-	margin: 0 15px;
+  margin: 0 15px;
 }
 .spec {
 }
 .description {
+  font-weight: 100;
 }
 
 .price {
-	display: flex;
-	flex-direction: row;
-	margin: 0 15px;
-	justify-content: space-between;
+  margin: 0 15px;
+  justify-content: space-between;
 }
 .creator {
-	margin: 0 15px 15px 15px;
+  margin: 0 15px 15px 15px;
+  justify-content: space-between;
+}
+
+.creator-avatar {
+  width: 30px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+.value {
+  font-weight: 500;
+}
+.eth-img {
+  margin-right: 15px;
+}
+.soft-blue {
+  color: hsl(215, 51%, 70%);
 }
