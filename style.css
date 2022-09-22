@@ -9,7 +9,6 @@ body {
   display: flex;
   max-width: 330px;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -20,6 +19,7 @@ body {
 }
 .about {
   margin: 0 15px;
+  margin-bottom: 20px;
 }
 .spec {
 }
@@ -28,29 +28,36 @@ body {
 }
 
 .price {
+  display: flex;
+  flex-direction: row;
   margin: 0 15px;
+  align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
+}
+.line {
+  border: none;
+  height: 1px;
+  background: hsl(215, 51%, 70%);
+  margin: 0 15px 15px 15px;
+  margin-bottom: 10px;
 }
 .creator {
   margin: 0 15px 15px 15px;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
 }
 
 .creator-avatar {
   width: 30px;
   border: 1px solid #fff;
   border-radius: 100%;
+  margin-right: 10px;
 }
 
-.cyan {
-  color: hsl(178, 100%, 50%);
-}
 .value {
   font-weight: 500;
 }
 .eth-img {
   margin-right: 15px;
-}
-.soft-blue {
-  color: hsl(215, 51%, 70%);
 }

@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link my style sheet -->
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./predefined.css" />
-    <!-- Font CDN  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <title>Frontend Mentor | NFT preview card component</title>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  </head>
-  <body>
-    <div class="main-div">
-      <img
-        src="./images/image-equilibrium.jpg"
-        alt="nft-img"
-        class="card-img hr-centre"
-      />
-      <div class="about">
-        <h1 class="spec white">Equilibrium #3429</h1>
-        <p class="description soft-blue">
-          Equilibrium collection promotes balance and calm.
-        </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link my style sheet -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./predefined.css" />
+  <!-- Font CDN  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
+  <title>Frontend Mentor | NFT preview card component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <div class="main-div">
+    <img src="./images/image-equilibrium.jpg" alt="nft-img" class="card-img" />
+    <div class="about">
+      <h2 class="spec white">Equilibrium #3429</h2>
+      <p class="description soft-blue">
+        Equilibrium collection promotes balance and calm.
+      </p>
+    </div>
+    <div class="price">
+      <div class="value">
+        <img src="./images/icon-ethereum.svg" class="eth.img" />
+        <span class="cyan">0.041 ETH</span>
       </div>
-      <div class="price flex row">
-        <p class="cyan value vr-centre">
-          <img src="./images/icon-ethereum.svg" class="eth.img" />0.041 ETH
-        </p>
-        <p><img src="./images/icon-clock.svg" />3 days left</p>
-      </div>
-      <div class="creator flex row">
-        <img src="./images/image-avatar.png" class="creator-avatar" />
-        <p class="soft-blue">
-          Creation of <span class="white">Jules Wyvern</span>
-        </p>
+      <div class="time">
+        <img src="./images/icon-clock.svg" class="eth.img" />
+        <span class="soft-blue">3 days left</span>
       </div>
     </div>
-  </body>
+    <hr class="line">
+    <div class="creator vr-centre">
+      <img src="./images/image-avatar.png" class="creator-avatar" />
+      <p class="soft-blue">
+        Creation of <span class="white">Jules Wyvern</span>
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>
 
 <!-- <div class="attribution">
